@@ -1,0 +1,28 @@
+{
+  "name": "node_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateeknigam/nodebackend.git"
+  },
+  "author": "Prateek Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateeknigam/nodebackend/issues"
+  },
+  "homepage": "https://github.com/prateeknigam/nodebackend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  }
+}
